@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'font1';
+    src: url('./assets/fonts/InstrumentSerif-Regular.ttf') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'font2';
+    src: url('./assets/fonts/InstrumentSerif-Italic.ttf') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
