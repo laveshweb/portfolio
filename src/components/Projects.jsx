@@ -163,7 +163,7 @@ function ProjectCard({ project, cardRef }) {
                          text-[#1a2332] font-normal tracking-[-0.6px] cursor-pointer mr-2.5">
             {title}
           </h3>
-            <svg width="22" height="22" viewBox="0 0 16 16" fill="none" className='mt-3.5'>
+            <svg width="22" height="22" viewBox="0 0 16 16" fill="none" className='mt-1 md:mt-3.5'>
               <path d="M3 13L13 3M13 3H6M13 3v7"
                     stroke="currentColor" strokeWidth="1.6"
                     strokeLinecap="round" strokeLinejoin="round"  />

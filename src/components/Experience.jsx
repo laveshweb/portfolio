@@ -151,7 +151,7 @@ function ExpDot() {
   return (
     <div className="exp-dot w-4 h-4 rounded-full bg-[#f2f1ef]
                     border-[2.5px] border-[#dde1e7]
-                    transition-all duration-300 shrink-0" />
+                    transition-all duration-300 shrink-0 mr-3.5 md:mr-0" />
   )
 }
 
