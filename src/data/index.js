@@ -1,17 +1,11 @@
 // ─── PROJECTS ────────────────────────────────────────────────────────────────
-// To update with your real screenshots:
-//   1. Put your images in /public/projects/
-//   2. Replace src URLs below with e.g. '/projects/ochi-hero.png'
-//   3. Replace liveUrl with your actual deployed URL
 export const projects = [
   {
-    title:   'Ochi — Agency Website Clone',
-    desc:    'A pixel-perfect clone of Ochi, a strategic presentation design agency. Built with React, GSAP, and Framer Motion — featuring smooth scroll-driven animations, magnetic cursor interactions, and a bold typographic layout that mirrors the feel of the original award-winning site.',
+    title:   'Ochi Clone',
+    desc:    'Pixel-perfect rebuild of Ochi — one of the most awarded agency websites on the internet. Reverse-engineered 25+ micro-interactions using React, GSAP, and Framer Motion — including the elastic magnetic cursor, scroll-driven kinetic typography, and staggered reveals. Zero third-party UI libraries. 100% custom code.',
     tags:    ['React', 'GSAP', 'Framer Motion', 'Tailwind CSS', 'Animation'],
     liveUrl: 'https://laveshochi.vercel.app/',
     screenshots: {
-      // Replace these with real screenshots of laveshochi.vercel.app
-      // Tip: open the site, take a screenshot, save to /public/projects/
       leftTop:     '/public/photos/projectochi1.png',
       leftBottom:  '/public/photos/projectochi2.png',
       phone:       '/public/photos/projectochi5.png',
@@ -20,10 +14,10 @@ export const projects = [
     },
   },
   {
-    title:   'Design System — Kibo',
-    desc:    'Built a comprehensive design system for a fast-growing fintech startup. Includes 200+ components, detailed documentation, and accessibility guidelines that reduced designer-to-engineer handoff time by 60%.',
-    tags:    ['Design System', 'Figma', 'Component Library', 'Fintech'],
-    liveUrl: '#',
+    title:   'NeoPop Soda',
+    desc:    'Animation-first website for a flavoured soda brand built with React and GSAP. Scroll-triggered reveals and high-energy transitions doubled customer retention (2x) and directly drove an increase in product sales. Every animation locked at 60fps. Fully responsive.',
+    tags:    ['React', 'GSAP', 'Framer Motion', 'E-commerce', 'Responsive'],
+    liveUrl: 'https://laveshneopop.vercel.app/',
     screenshots: {
       leftTop:     '/public/photos/neopop1.mp4',
       leftBottom:  '/public/photos/neopop2.png',
@@ -33,10 +27,10 @@ export const projects = [
     },
   },
   {
-    title:   'Calligraphy Studio',
-    desc:    'A personal digital studio for showcasing and selling original hand-lettered artworks. Features an elegant gallery, a custom commission flow, and a minimal checkout experience.',
-    tags:    ['E-commerce', 'Branding', 'Typography', 'Visual Design'],
-    liveUrl: '#',
+    title:   'GameZone 3D',
+    desc:    'Immersive gaming platform with a live interactive 3D character — users swap skins, change gear, and trigger animations at 60fps in the browser using Three.js. Backed by 30+ GSAP scroll sequences and a 3D scene that loads in under 2 seconds. Fully responsive across all screen sizes.',
+    tags:    ['React', 'Three.js', 'GSAP', '3D Web', 'Responsive'],
+    liveUrl: 'https://laveshgaming.vercel.app/',
     screenshots: {
       leftTop:     '/public/photos/gaming1.mp4',
       leftBottom:  '/public/photos/gaming2.png',
@@ -46,10 +40,10 @@ export const projects = [
     },
   },
   {
-    title:   'Juspay Checkout',
-    desc:    'Redesigned the merchant-facing checkout SDK and analytics dashboard. The new flow reduced payment drop-off by 22% through smarter UPI fallback UX and payment method ordering.',
-    tags:    ['Fintech', 'SDK Design', 'Checkout UX', 'Developer Tools'],
-    liveUrl: '#',
+    title:   'Luxe Furniture',
+    desc:    'Premium furniture store powered by Locomotive Scroll — cinematic, momentum-driven transitions make browsing feel as considered as the products themselves. Parallax effects, magnetic hovers, and scroll storytelling guide users naturally through the full catalogue. Fully responsive across 5 breakpoints.',
+    tags:    ['React', 'Locomotive Scroll', 'GSAP', 'E-commerce', 'Responsive'],
+    liveUrl: 'https://laveshfurniture.vercel.app/',
     screenshots: {
       leftTop:     '/public/photos/furinture1.mp4',
       leftBottom:  '/public/photos/furniture2.png',
@@ -59,10 +53,10 @@ export const projects = [
     },
   },
   {
-    title:   'Breeze Onboarding',
-    desc:    'Designed the end-to-end onboarding flow for Breeze from sign-up through store connection to first insight. A 4-step personalised flow that reduced time-to-value from days to under 10 minutes.',
-    tags:    ['Onboarding', 'Product Design', 'Growth', 'Mobile-first'],
-    liveUrl: '#',
+    title:   'DriveElite Cars',
+    desc:    'Premium car rental platform with a Three.js 3D showcase — users orbit 360° around every vehicle before booking. GSAP transitions run at sub-200ms, and the booking flow takes under 90 seconds from landing to confirmed reservation. Three.js auto-optimises on mobile for consistent performance everywhere.',
+    tags:    ['React', 'Three.js', 'GSAP', 'Booking UX', 'Responsive'],
+    liveUrl: 'https://laveshrentalcar.vercel.app/',
     screenshots: {
       leftTop:     '/public/photos/rental1.png',
       leftBottom:  '/public/photos/rental2.png',
@@ -138,7 +132,6 @@ export const skillCategories = [
 ]
 
 // ─── ABOUT PHOTOS ─────────────────────────────────────────────────────────────
-// Replace src values with your actual image paths (put images in /public/photos/)
 export const aboutPhotos = [
   { src: '/photos/photo1.jpg', alt: 'Nature', ratio: '4/5' },
   { src: '/photos/photo2.jpg', alt: 'Hobby',  ratio: '4/3' },
