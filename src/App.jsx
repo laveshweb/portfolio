@@ -1,16 +1,21 @@
-import React from 'react'
-import Navbar from './sections/Navbar'
-import Hero from './sections/Hero'
-import Project from './sections/Project'
+import Navbar     from './components/Navbar'
+import Hero       from './components/Hero'
+import Projects   from './components/Projects'
+import Experience from './components/Experience'
+import Skills     from './components/Skills'
+import About      from './components/About'
+import Contact    from './components/Contact'
 
-const App = () => {
+export default function App() {
   return (
-    <div className= ' h-screen bg-green-500'>
-      <Navbar/>
-      <Hero/>
-      <Project/>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <Projects />
+      <Experience />
+      <Skills />
+      <About />
+      <Contact />
+    </>
   )
 }
-
-export default App
