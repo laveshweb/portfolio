@@ -109,4 +109,55 @@ export const SkillIcons = {
       </defs>
     </svg>
   ),
+
+  // ── NEW ICONS ──────────────────────────────────────────────
+
+  ES6: () => (
+    <svg viewBox="0 0 32 32" fill="none" className="w-7 h-7">
+      <rect width="32" height="32" rx="4" fill="#F7DF1E"/>
+      <text x="3" y="23" fontSize="11" fontWeight="900" fill="#000" fontFamily="monospace">ES6</text>
+    </svg>
+  ),
+
+  'Tailwind CSS': () => (
+    <svg viewBox="0 0 32 32" fill="none" className="w-7 h-7">
+      <path d="M16 6c-4 0-6.5 2-7.5 6 1.5-2 3.25-2.75 5.25-2.25 1.14.285 1.957 1.113 2.857 2.033C18.05 13.24 19.613 15 23 15c4 0 6.5-2 7.5-6-1.5 2-3.25 2.75-5.25 2.25-1.14-.285-1.957-1.113-2.857-2.033C20.95 7.76 19.387 6 16 6zm-7.5 9C4.5 15 2 17 1 21c1.5-2 3.25-2.75 5.25-2.25 1.14.285 1.957 1.113 2.857 2.033C10.55 22.24 12.113 24 15.5 24c4 0 6.5-2 7.5-6-1.5 2-3.25 2.75-5.25 2.25-1.14-.285-1.957-1.113-2.857-2.033C13.45 16.76 11.887 15 8.5 15z" fill="#38BDF8"/>
+    </svg>
+  ),
+
+  Cursor: () => (
+    <svg viewBox="0 0 32 32" fill="none" className="w-7 h-7">
+      <rect width="32" height="32" rx="6" fill="#000"/>
+      <path d="M8 6l16 10-7 2-3 8L8 6z" fill="white" opacity=".9"/>
+    </svg>
+  ),
+
+  'VS Code': () => (
+    <svg viewBox="0 0 32 32" fill="none" className="w-7 h-7">
+      <path d="M23.5 3.5l-12 11L5 9 2 11.5l7 6.5-7 6.5L5 27l6.5-5.5 12 11 2.5-1V4.5L23.5 3.5z" fill="#007ACC"/>
+      <path d="M23.5 3.5v25l-12-11 12-14z" fill="#1B6EAE"/>
+      <path d="M2 11.5l3-2.5 6.5 5.5-6.5 6.5L2 18.5l5.5-5-5.5-5v3z" fill="white" opacity=".5"/>
+    </svg>
+  ),
+
+  HeyGen: () => (
+    <svg viewBox="0 0 32 32" fill="none" className="w-7 h-7">
+      <rect width="32" height="32" rx="6" fill="#5B4FE9"/>
+      <circle cx="16" cy="13" r="5" fill="white" opacity=".9"/>
+      <path d="M7 26c0-4.97 4.03-9 9-9s9 4.03 9 9" stroke="white" strokeWidth="2" strokeLinecap="round" opacity=".9"/>
+    </svg>
+  ),
+
+  Leonado: () => (
+    <svg viewBox="0 0 32 32" fill="none" className="w-7 h-7">
+      <rect width="32" height="32" rx="6" fill="#0C0C0C"/>
+      <path d="M16 5l2.5 7h7.5l-6 4.5 2.5 7L16 19l-6.5 4.5 2.5-7L6 12h7.5L16 5z" fill="url(#leog)"/>
+      <defs>
+        <linearGradient id="leog" x1="6" y1="5" x2="26" y2="27" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#E879F9"/>
+          <stop offset="1" stopColor="#818CF8"/>
+        </linearGradient>
+      </defs>
+    </svg>
+  ),
 }

@@ -1,7 +1,7 @@
 import { useRef, useEffect } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { aboutPhotos } from '../data'
+import { aboutPhotos, aboutMe } from '../data'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -39,29 +39,19 @@ export default function About() {
           <div ref={textRef}
                className="md:sticky md:top-[100px] opacity-0 translate-y-6">
 
-            <h2 className="font-serif text-[clamp(36px,4vw,56px)] text-ink
+            {/* Heading — from aboutMe.heading in data/index.js */}
+            <h2 className="font-serif text-[clamp(36px,4vw,56px)] text-[#1a2332]
                            tracking-[-1.5px] leading-[1.05] mb-9 font-normal">
-              About <em className="not-italic italic text-blue">me</em>
+              About <em className="not-italic italic text-[#3d5a80]">me</em>
             </h2>
 
-            <p className="text-[15.5px] text-[#4a5568] leading-[1.85] mb-[22px]">
-              I&apos;m a product designer who enjoys untangling messy ideas and
-              turning them into things that feel simple and clear.
-            </p>
-            <p className="text-[15.5px] text-[#4a5568] leading-[1.85] mb-[22px]">
-              I&apos;m naturally curious and love digging into fuzzy problems,
-              asking <em className="not-italic italic font-medium text-ink">why</em>,
-              and slowly shaping clarity out of chaos. I care about the little
-              details that make products feel intuitive, calm, and human.
-            </p>
-            <p className="text-[15.5px] text-[#4a5568] leading-[1.85] mb-[22px]">
-              When I&apos;m not designing, I&apos;m usually gaming, riding my
-              motorcycle, hosting events, or picking up a new hobby just for fun.
-            </p>
-            <p className="text-[15.5px] text-[#4a5568] leading-[1.85]">
-              I believe good design is all about balance — between users, business
-              goals, and real-world constraints. That&apos;s where I do my best work.
-            </p>
+            {/* Paragraphs — edit text in data/index.js → aboutMe.paragraphs */}
+            {aboutMe.paragraphs.map((para, i) => (
+              <p key={i}
+                 className="text-[15.5px] text-[#4a5568] leading-[1.85] mb-[22px] last:mb-0">
+                {para}
+              </p>
+            ))}
           </div>
 
           {/* ── Right: photo masonry ── */}
