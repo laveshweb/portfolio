@@ -19,11 +19,11 @@ export const projects = [
     tags:    ['React', 'GSAP', 'Framer Motion', 'E-commerce', 'Responsive'],
     liveUrl: 'https://laveshneopop.vercel.app/',
     screenshots: {
-      leftTop:     '/public/photos/neopop1.mp4',
-      leftBottom:  '/public/photos/neopop2.png',
-      phone:       '/public/photos/neopop5.mp4',
-      rightTop:    '/public/photos/neopop3.png',
-      rightBottom: '/public/photos/neopop4.mp4',
+      leftTop:     '/photos/neopop1.mp4',
+      leftBottom:  '/photos/neopop2.png',
+      phone:       '/photos/neopop5.mp4',
+      rightTop:    '/photos/neopop3.png',
+      rightBottom: '/photos/neopop4.mp4',
     },
   },
   {
@@ -32,11 +32,11 @@ export const projects = [
     tags:    ['React', 'Three.js', 'GSAP', '3D Web', 'Responsive'],
     liveUrl: 'https://laveshgaming.vercel.app/',
     screenshots: {
-      leftTop:     '/public/photos/gaming1.mp4',
-      leftBottom:  '/public/photos/gaming2.png',
-      phone:       '/public/photos/gaming5.mp4',
-      rightTop:    '/public/photos/gaming4.png',
-      rightBottom: '/public/photos/gaming3.mp4',
+      leftTop:     '/photos/gaming1.mp4',
+      leftBottom:  '/photos/gaming2.png',
+      phone:       '/photos/gaming5.mp4',
+      rightTop:    '/photos/gaming4.png',
+      rightBottom: '/photos/gaming3.mp4',
     },
   },
   {
@@ -45,11 +45,11 @@ export const projects = [
     tags:    ['React', 'Locomotive Scroll', 'GSAP', 'E-commerce', 'Responsive'],
     liveUrl: 'https://laveshfurniture.vercel.app/',
     screenshots: {
-      leftTop:     '/public/photos/furinture1.mp4',
-      leftBottom:  '/public/photos/furniture2.png',
-      phone:       '/public/photos/furniture3.mp4',
-      rightTop:    '/public/photos/furinture4.png',
-      rightBottom: '/public/photos/furniture5.mp4',
+      leftTop:     '/photos/furinture1.mp4',
+      leftBottom:  '/photos/furniture2.png',
+      phone:       '/photos/furniture3.mp4',
+      rightTop:    '/photos/furinture4.png',
+      rightBottom: '/photos/furniture5.mp4',
     },
   },
   {
@@ -58,12 +58,12 @@ export const projects = [
     tags:    ['React', 'Three.js', 'GSAP', 'Booking UX', 'Responsive'],
     liveUrl: 'https://laveshrentalcar.vercel.app/',
     screenshots: {
-      leftTop:     '/public/photos/rental1.png',
-      leftBottom:  '/public/photos/rental2.png',
-      phone:       '/public/photos/rental3.mp4',
-      rightTop:    '/public/photos/rental4.png',
-      rightBottom: '/public/photos/rental5.png',
-    },
+      leftTop:     '/photos/rental1.png',
+      leftBottom:  '/photos/rental2.png',
+      phone:       '/photos/rental3.mp4',
+      rightTop:    '/photos/rental4.png',
+      rightBottom: '/photos/rental5.png',
+  
   },
 ]
 
