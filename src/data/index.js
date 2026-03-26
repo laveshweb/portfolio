@@ -63,7 +63,7 @@ export const projects = [
       phone:       '/photos/rental3.mp4',
       rightTop:    '/photos/rental4.png',
       rightBottom: '/photos/rental5.png',
-  
+    }
   },
 ]
 
