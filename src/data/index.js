@@ -6,11 +6,11 @@ export const projects = [
     tags:    ['React', 'GSAP', 'Framer Motion', 'Tailwind CSS', 'Animation'],
     liveUrl: 'https://laveshochi.vercel.app/',
     screenshots: {
-      leftTop:     '/public/photos/projectochi1.png',
-      leftBottom:  '/public/photos/projectochi2.png',
-      phone:       '/public/photos/projectochi5.png',
-      rightTop:    '/public/photos/projectochi3.png',
-      rightBottom: '/public/photos/projectochi4.png',
+      leftTop:     '/photos/projectochi1.png',
+      leftBottom:  '/photos/projectochi2.png',
+      phone:       '/photos/projectochi5.png',
+      rightTop:    '/photos/projectochi3.png',
+      rightBottom: '/photos/projectochi4.png',
     },
   },
   {
