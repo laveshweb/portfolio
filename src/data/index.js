@@ -155,9 +155,12 @@ export const aboutPhotos = [
 
 // ─── SOCIALS ──────────────────────────────────────────────────────────────────
 export const socials = {
-  linkedin:  'https://linkedin.com/in/aromal',
-  twitter:   'https://twitter.com/aromal',
-  github:    'https://github.com/aromal',
-  instagram: 'https://instagram.com/aromal',
-  email:     'hello@aromal.design',
+  linkedin:  'https://www.linkedin.com/in/laveshbhagwani',
+  twitter:   'https://x.com/laveshbhagwanii',
+  github:    'https://github.com/laveshweb',
+  instagram: 'https://www.instagram.com/laveshbhagwanii/',
+  email:     'Laveshthecoder@gmail.com',
 }
+
+
+

@@ -99,7 +99,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between mb-12">
           <a href="#top" onClick={close}
             className="font-serif text-[20px] text-ink tracking-[-0.5px] no-underline">
-            Aromal ✦
+            Lavesh ✦
           </a>
           <button
             onClick={close}
